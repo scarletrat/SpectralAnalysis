@@ -20,7 +20,8 @@ The computed values are organized into a MATLAB table and written to a CSV file 
 
 ## Usage
  Change x in line 4 to input signal of choice. 
- **Example**
+ 
+ **Example**:
  
 Bin 0/DC bias signal is [1     1     1     1     1     1     1     1].'; 
  
