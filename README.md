@@ -1,3 +1,5 @@
+https://docs.google.com/presentation/d/1krdmLwUoxxyAK9i2Z1Q8ZFdgu5mBzPvxJnn4FXKpe8w/edit?usp=sharing
+
 # `firstStage_N_8.m`
 
 This MATLAB script runs the **first stage** of an **8-point FFT** using both **Decimation-in-Time (DIT)** and **Decimation-in-Frequency (DIF)** algorithms.  
