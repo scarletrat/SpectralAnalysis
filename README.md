@@ -44,6 +44,7 @@ It extracts key columns, applies a filter condition, and exports the filtered da
 - Applies a filter condition from **line 19** to create a subset of rows.
 - Exports the filtered results to a new file:  filtered_data.xlsx
 
-Feel free to change line 19 to "Find the rows where the x value is the largest in the row". So if you have a signal with bin 0/1 x = 1, bin2/3 x = 2, ... 
+Feel free to change line 19 to "Find the rows where the x value is the largest in the row". So if you have a signal with bin 0/1 x = 1, bin2/3 x = 2. It is because Largersum is either even sum or odd sum values.
+
 
 The commented part in the bottom is where I have another signal with the table. I can use the above filtered value(filtered_data.xlsx) to remove the trials from the table(fft_permutation_results2) and store it in a new file "fft_permutation_results3" since when you overwrite the file with shorter rows, some of the filtered rows will still stay at the bottom of the xlsx file.
